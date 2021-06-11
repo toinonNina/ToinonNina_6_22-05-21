@@ -6,7 +6,8 @@ const jwt = require('jsonwebtoken');
 const crypt = require('crypto-js');
 
 const User = require('../models/User');
-
+const dotenv = require("dotenv");
+dotenv.config();
 
 //fonction qui va crypté le mot de passe qui va le prendre et creer un nouveau user 
 //avec ce mot de passe et l'email et va l'enregistrer dans la base de donnée
