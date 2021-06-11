@@ -2,7 +2,7 @@
 const Sauce = require('../models/sauce');
 const fs = require('fs');
 //logique metiers
-
+//permet d'exposer la logique de nos route en tant que fonction pour chaque crud
 
 // Permet de créer une nouvelle sauce
 
